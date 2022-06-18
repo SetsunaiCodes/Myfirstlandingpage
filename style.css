@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0 25%;
+    background-color: black;
+    font-family: 'Signika Negative', sans-serif;
+}
+.boxing{
+    border: 2px solid red;
+}
+header{
+    display: flex;
+}
+.HeaderHeading{
+font-weight: bold;
+}
+.Header-Links{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 8px;
+    font-size: small;
+    color: #ececec;
+}
+.mainboard-1{
+    padding: 0% 10% 10% 10%;
+    background-color: #1F2937;
+    color: white;
+}
+.Introduction{
+    display: flex;
+    padding-top: 10%;
+}
+.Introitem{
+    flex: 1;
+    display: flex;
+    height: 175px;
+}
+.IntroSection-2{
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.IntroSection-1{
+        flex-direction: column;
+        justify-content: space-between; 
+        padding-right: 15px;   
+    }
+
+.button-1{
+    height: 70px;
+    width: 150px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+}
+.IntroHeader{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+.mainboard-2{
+    padding:10%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 30px;    
+}
+.RandomHeading{
+    margin-top: -5%;
+    font-weight: bold;
+}
+.RandomInfo{
+    display: flex;
+}
+.Square{
+    height: 100px;
+    width: 100px;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+}
+.RandomItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+.mainboard-3{
+    padding: 10%;
+    background-color: #E5E7EB;
+    color: black;
+}
+
+.Quote{
+    display: flex;
+    flex-direction: column;
+}
+.mainquote{
+    font-size: 36px;
+    font-style: italic;
+}
+.author{
+display: flex;
+flex: 1;
+justify-content: flex-end;
+font-weight: bold;
+font-size: large;
+}
+
+.mainboard-4{
+    padding: 5% 10%;
+    background-color: white;
+    color: black;
+}
+
+.CTOBox{
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    padding: 2% 4%;
+}
+.CTO-Sec1{
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.CTO-Sec2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.button-2{
+    height: 40px;
+    width: 150px;
+    border: 2px solid white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+}
+.CTOHeading{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+.CTOText{
+    margin-top: 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    color:#ececec;
+    background-color: #1F2937;
+    margin: 0;
+}
